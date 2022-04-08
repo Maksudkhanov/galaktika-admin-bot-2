@@ -3,7 +3,7 @@ var fs = require('fs')
 var TelegramBot = require('node-telegram-bot-api');
 
 
-var token = '1252707561:AAECsA-gdC8ffkH9yynKIyT4znOMRAP6ULE';
+var token = '';
 var bot = new TelegramBot(token, { polling: true });
 
 //admin id
